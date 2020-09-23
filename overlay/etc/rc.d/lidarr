@@ -34,7 +34,7 @@ load_rc_config $name
 : ${lidarr_enable="NO"}
 : ${lidarr_user:="lidarr"}
 : ${lidarr_group:="lidarr"}
-: ${lidarr_data_dir:="/usr/local/lidarr"}
+: ${lidarr_data_dir:="/config"}
 
 pidfile="${lidarr_data_dir}/lidarr.pid"
 command="/usr/sbin/daemon"
