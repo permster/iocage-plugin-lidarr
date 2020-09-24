@@ -13,6 +13,7 @@ rm /usr/local/share/Lidarr.*.linux.tar.gz
 pw user add lidarr -c lidarr -u 353 -d /nonexistent -s /usr/bin/nologin
 
 # make "lidarr" the owner of the install and data locations
+mkdir /config
 chown -R lidarr:lidarr /usr/local/share/Lidarr /config
 
 # give write permission for plugin update
