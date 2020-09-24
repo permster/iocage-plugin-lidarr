@@ -17,7 +17,7 @@ mkdir /config
 chown -R lidarr:lidarr /usr/local/share/Lidarr /config
 
 # give write permission for plugin update
-chmod 755 /usr/local/share/Lidarr
+chmod 755 /config
 
 # Start the services
 chmod u+x /etc/rc.d/lidarr
